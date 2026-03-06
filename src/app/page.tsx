@@ -19,7 +19,7 @@ export default function LandingPage() {
       borderRadius="pill"
       contentWidth="smallMedium"
       sizing="largeSizeMediumTitles"
-      background="noise"
+      background="circleGradient"
       cardStyle="glass-elevated"
       primaryButtonStyle="primary-glow"
       secondaryButtonStyle="layered"
@@ -50,7 +50,7 @@ export default function LandingPage() {
             { text: "Solicitar revisión", href: "#contact" }
           ]}
           buttonAnimation="slide-up"
-          background={{ variant: "noise" }}
+          background={{ variant: "plain" }}
           dashboard={{
             title: "Tallers Av Sarrià — Tu mecánico de barrio",            stats: [
               { title: "Valoración", values: [4.6, 4.8, 4.6], description: "Google Reviews" },
@@ -72,7 +72,7 @@ export default function LandingPage() {
               { icon: Zap, title: "Reparaciones rápidas", status: "Eficiente" },
               { icon: Heart, title: "Trato cercano y profesional", status: "Confiable" }
             ],
-            listTitle: "Nuestro compromiso",            imageSrc: "http://img.b2bpic.net/free-photo/male-worker-wearing-work-clothes_273609-10811.jpg?_wi=1",            imageAlt: "Mecánico profesional en taller",            searchPlaceholder: "¿Cuál es tu problema?",            chartTitle: "Satisfacción de clientes",            chartData: [
+            listTitle: "Nuestro compromiso",            imageSrc: "http://img.b2bpic.net/free-photo/male-worker-wearing-work-clothes_273609-10811.jpg",            imageAlt: "Mecánico profesional en taller",            searchPlaceholder: "¿Cuál es tu problema?",            chartTitle: "Satisfacción de clientes",            chartData: [
               { value: 95 },
               { value: 98 },
               { value: 96 },
@@ -146,7 +146,7 @@ export default function LandingPage() {
           tag="Nuestro valor"
           tagIcon={Award}
           tagAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/male-worker-wearing-work-clothes_273609-10811.jpg?_wi=2"
+          imageSrc="http://img.b2bpic.net/free-photo/male-worker-wearing-work-clothes_273609-10811.jpg"
           imageAlt="Equipo profesional del taller"
           buttons={[
             { text: "Llamar ahora", href: "tel:933217648" },
