@@ -72,7 +72,7 @@ export default function LandingPage() {
               { icon: Zap, title: "Reparaciones rápidas", status: "Eficiente" },
               { icon: Heart, title: "Trato cercano y profesional", status: "Confiable" }
             ],
-            listTitle: "Nuestro compromiso",            imageSrc: "http://img.b2bpic.net/free-photo/male-worker-wearing-work-clothes_273609-10811.jpg",            imageAlt: "Mecánico profesional en taller",            searchPlaceholder: "¿Cuál es tu problema?",            chartTitle: "Satisfacción de clientes",            chartData: [
+            listTitle: "Nuestro compromiso",            imageSrc: "http://img.b2bpic.net/free-photo/male-worker-wearing-work-clothes_273609-10811.jpg?_wi=1",            imageAlt: "Mecánico profesional en taller",            searchPlaceholder: "¿Cuál es tu problema?",            chartTitle: "Satisfacción de clientes",            chartData: [
               { value: 95 },
               { value: 98 },
               { value: 96 },
@@ -146,7 +146,7 @@ export default function LandingPage() {
           tag="Nuestro valor"
           tagIcon={Award}
           tagAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/male-worker-wearing-work-clothes_273609-10811.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/male-worker-wearing-work-clothes_273609-10811.jpg?_wi=2"
           imageAlt="Equipo profesional del taller"
           buttons={[
             { text: "Llamar ahora", href: "tel:933217648" },
